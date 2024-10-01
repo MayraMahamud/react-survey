@@ -1,7 +1,9 @@
 import "./App.css";
+import AnswersList from "./components/AnswersList";
 
 import Header from "./components/Header";
 import Survey from "./components/Survey";
+
 
 export default function App() {
   return (
@@ -9,6 +11,7 @@ export default function App() {
     <>
       <Header />
       <Survey />
+      
     </>
   );
 }

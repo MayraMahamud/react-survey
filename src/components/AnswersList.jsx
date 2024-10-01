@@ -1,3 +1,4 @@
+import React from "react";
 import AnswersItem from "./AnswersItem";
 
 export default function AnswersList(props) {
